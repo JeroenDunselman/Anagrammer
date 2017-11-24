@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94BBCB51FC86844001398F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCB41FC86844001398F4 /* AppDelegate.swift */; };
+		A94BBCB71FC86844001398F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCB61FC86844001398F4 /* ViewController.swift */; };
+		A94BBCBA1FC86844001398F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94BBCB81FC86844001398F4 /* Main.storyboard */; };
+		A94BBCBC1FC86844001398F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94BBCBB1FC86844001398F4 /* Assets.xcassets */; };
+		A94BBCBF1FC86844001398F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */; };
+		A94BBCCA1FC86844001398F4 /* Anagram_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCC91FC86844001398F4 /* Anagram_CheckerTests.swift */; };
+		A94BBCD51FC86845001398F4 /* Anagram_CheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCD41FC86845001398F4 /* Anagram_CheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94BBCC61FC86844001398F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94BBCA91FC86844001398F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94BBCB01FC86844001398F4;
+			remoteInfo = "Anagram Checker";
+		};
+		A94BBCD11FC86845001398F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94BBCA91FC86844001398F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94BBCB01FC86844001398F4;
+			remoteInfo = "Anagram Checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A94BBCB11FC86844001398F4 /* Anagram Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anagram Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94BBCB41FC86844001398F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A94BBCB61FC86844001398F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A94BBCB91FC86844001398F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94BBCBB1FC86844001398F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94BBCBE1FC86844001398F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94BBCC01FC86844001398F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94BBCC51FC86844001398F4 /* Anagram CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anagram CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94BBCC91FC86844001398F4 /* Anagram_CheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram_CheckerTests.swift; sourceTree = "<group>"; };
+		A94BBCCB1FC86845001398F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94BBCD01FC86845001398F4 /* Anagram CheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anagram CheckerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94BBCD41FC86845001398F4 /* Anagram_CheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram_CheckerUITests.swift; sourceTree = "<group>"; };
+		A94BBCD61FC86845001398F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94BBCAE1FC86844001398F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCC21FC86844001398F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCCD1FC86845001398F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94BBCA81FC86844001398F4 = {
+			isa = PBXGroup;
+			children = (
+				A94BBCB31FC86844001398F4 /* Anagram Checker */,
+				A94BBCC81FC86844001398F4 /* Anagram CheckerTests */,
+				A94BBCD31FC86845001398F4 /* Anagram CheckerUITests */,
+				A94BBCB21FC86844001398F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94BBCB21FC86844001398F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94BBCB11FC86844001398F4 /* Anagram Checker.app */,
+				A94BBCC51FC86844001398F4 /* Anagram CheckerTests.xctest */,
+				A94BBCD01FC86845001398F4 /* Anagram CheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94BBCB31FC86844001398F4 /* Anagram Checker */ = {
+			isa = PBXGroup;
+			children = (
+				A94BBCB41FC86844001398F4 /* AppDelegate.swift */,
+				A94BBCB61FC86844001398F4 /* ViewController.swift */,
+				A94BBCB81FC86844001398F4 /* Main.storyboard */,
+				A94BBCBB1FC86844001398F4 /* Assets.xcassets */,
+				A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */,
+				A94BBCC01FC86844001398F4 /* Info.plist */,
+			);
+			path = "Anagram Checker";
+			sourceTree = "<group>";
+		};
+		A94BBCC81FC86844001398F4 /* Anagram CheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94BBCC91FC86844001398F4 /* Anagram_CheckerTests.swift */,
+				A94BBCCB1FC86845001398F4 /* Info.plist */,
+			);
+			path = "Anagram CheckerTests";
+			sourceTree = "<group>";
+		};
+		A94BBCD31FC86845001398F4 /* Anagram CheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94BBCD41FC86845001398F4 /* Anagram_CheckerUITests.swift */,
+				A94BBCD61FC86845001398F4 /* Info.plist */,
+			);
+			path = "Anagram CheckerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94BBCB01FC86844001398F4 /* Anagram Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94BBCD91FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram Checker" */;
+			buildPhases = (
+				A94BBCAD1FC86844001398F4 /* Sources */,
+				A94BBCAE1FC86844001398F4 /* Frameworks */,
+				A94BBCAF1FC86844001398F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anagram Checker";
+			productName = "Anagram Checker";
+			productReference = A94BBCB11FC86844001398F4 /* Anagram Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94BBCC41FC86844001398F4 /* Anagram CheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94BBCDC1FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram CheckerTests" */;
+			buildPhases = (
+				A94BBCC11FC86844001398F4 /* Sources */,
+				A94BBCC21FC86844001398F4 /* Frameworks */,
+				A94BBCC31FC86844001398F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94BBCC71FC86844001398F4 /* PBXTargetDependency */,
+			);
+			name = "Anagram CheckerTests";
+			productName = "Anagram CheckerTests";
+			productReference = A94BBCC51FC86844001398F4 /* Anagram CheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94BBCCF1FC86845001398F4 /* Anagram CheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94BBCDF1FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram CheckerUITests" */;
+			buildPhases = (
+				A94BBCCC1FC86845001398F4 /* Sources */,
+				A94BBCCD1FC86845001398F4 /* Frameworks */,
+				A94BBCCE1FC86845001398F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94BBCD21FC86845001398F4 /* PBXTargetDependency */,
+			);
+			name = "Anagram CheckerUITests";
+			productName = "Anagram CheckerUITests";
+			productReference = A94BBCD01FC86845001398F4 /* Anagram CheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94BBCA91FC86844001398F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jeroen Dunselman";
+				TargetAttributes = {
+					A94BBCB01FC86844001398F4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A94BBCC41FC86844001398F4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A94BBCB01FC86844001398F4;
+					};
+					A94BBCCF1FC86845001398F4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A94BBCB01FC86844001398F4;
+					};
+				};
+			};
+			buildConfigurationList = A94BBCAC1FC86844001398F4 /* Build configuration list for PBXProject "Anagram Checker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94BBCA81FC86844001398F4;
+			productRefGroup = A94BBCB21FC86844001398F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94BBCB01FC86844001398F4 /* Anagram Checker */,
+				A94BBCC41FC86844001398F4 /* Anagram CheckerTests */,
+				A94BBCCF1FC86845001398F4 /* Anagram CheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94BBCAF1FC86844001398F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94BBCBF1FC86844001398F4 /* LaunchScreen.storyboard in Resources */,
+				A94BBCBC1FC86844001398F4 /* Assets.xcassets in Resources */,
+				A94BBCBA1FC86844001398F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCC31FC86844001398F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCCE1FC86845001398F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94BBCAD1FC86844001398F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94BBCB71FC86844001398F4 /* ViewController.swift in Sources */,
+				A94BBCB51FC86844001398F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCC11FC86844001398F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94BBCCA1FC86844001398F4 /* Anagram_CheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94BBCCC1FC86845001398F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94BBCD51FC86845001398F4 /* Anagram_CheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94BBCC71FC86844001398F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94BBCB01FC86844001398F4 /* Anagram Checker */;
+			targetProxy = A94BBCC61FC86844001398F4 /* PBXContainerItemProxy */;
+		};
+		A94BBCD21FC86845001398F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94BBCB01FC86844001398F4 /* Anagram Checker */;
+			targetProxy = A94BBCD11FC86845001398F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94BBCB81FC86844001398F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94BBCB91FC86844001398F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94BBCBE1FC86844001398F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94BBCD71FC86845001398F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94BBCD81FC86845001398F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94BBCDA1FC86845001398F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94BBCDB1FC86845001398F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A94BBCDD1FC86845001398F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram CheckerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-CheckerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anagram Checker.app/Anagram Checker";
+			};
+			name = Debug;
+		};
+		A94BBCDE1FC86845001398F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram CheckerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-CheckerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anagram Checker.app/Anagram Checker";
+			};
+			name = Release;
+		};
+		A94BBCE01FC86845001398F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram CheckerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-CheckerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anagram Checker";
+			};
+			name = Debug;
+		};
+		A94BBCE11FC86845001398F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = "Anagram CheckerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-CheckerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anagram Checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94BBCAC1FC86844001398F4 /* Build configuration list for PBXProject "Anagram Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94BBCD71FC86845001398F4 /* Debug */,
+				A94BBCD81FC86845001398F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94BBCD91FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94BBCDA1FC86845001398F4 /* Debug */,
+				A94BBCDB1FC86845001398F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94BBCDC1FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram CheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94BBCDD1FC86845001398F4 /* Debug */,
+				A94BBCDE1FC86845001398F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94BBCDF1FC86845001398F4 /* Build configuration list for PBXNativeTarget "Anagram CheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94BBCE01FC86845001398F4 /* Debug */,
+				A94BBCE11FC86845001398F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94BBCA91FC86844001398F4 /* Project object */;
+}
