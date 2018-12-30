@@ -18,7 +18,7 @@ class WordCheckVC: UIViewController {
   if let word = anagrams?._word,
    let current = self.txtCheck.text, current != "",
    let result = anagrams?.isAnagram(check: current) {
-   lblHeader.text = "\(result ? "Yes" : "No"), \(current) is \(result ? "" : "not") an anagram of \(word)"
+   lblHeader.text = "\(result ? "Yes" : "No"), \(current) is\(result ? "" : " not") an anagram of \(word)"
   }
  }
  
