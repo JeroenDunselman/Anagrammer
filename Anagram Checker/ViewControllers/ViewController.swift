@@ -31,22 +31,12 @@ class ViewController: UIViewController {
     var vcCheck: WordCheckVC?
     @IBOutlet weak var btnCheck: UIButton!
     @IBAction func btnCheck(_ sender: Any) {
-//        self.refreshList()
-        
         if let current = self.anagrams {
             vcCheck?.anagrams = current
             vcCheck?.navigationItem.title = "Anagram of \(current._word)?"
         }
-        vcCheck?.navigationItem.leftBarButtonItem =
-            UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(goBack))
+
         let navController = UINavigationController(rootViewController: vcCheck!)
-        
-        let transition = CATransition()
-        transition.duration = 0.2
-        transition.type = kCATransitionPush
-        transition.subtype = kCATransitionFromTop// Right
-        view.window!.layer.add(transition, forKey: kCATransition)
-        
         present(navController, animated: false, completion: nil)
     }
     
@@ -56,18 +46,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnHistory: UIButton!
     @IBAction func btnHistory(_ sender: UIButton) {
         vcHistory?.history = self.history
-        vcHistory?.navigationItem.title = "History"
-        vcHistory?.navigationItem.leftBarButtonItem =
-            UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(goBack))
-        
         let navController = UINavigationController(rootViewController: vcHistory!)
-        
-        let transition = CATransition()
-        transition.duration = 0.2
-        transition.type = kCATransitionPush
-        transition.subtype = kCATransitionFromTop// Right
-        view.window!.layer.add(transition, forKey: kCATransition)
-        
         present(navController, animated: false, completion: nil)
     }
     @IBAction func unwindSegueToVC(segue:UIStoryboardSegue) {
@@ -90,7 +69,7 @@ class ViewController: UIViewController {
         currentInput = self.userInput.text!
         
         //      Show permutations for current input
-        //      Look in session history for previously calculated Anagrams._word
+        //      Look in session history for previous AnagramService
         if let previous = self.history.first(where: { $0._word == currentInput}) {
             anagrams = previous
             anagramsInView = previous.anagrams
@@ -156,7 +135,13 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         
         vcHistory = self.storyboard?.instantiateViewController(withIdentifier: "History") as? HistoryVC
+        vcHistory?.navigationItem.title = "History"
+        vcHistory?.navigationItem.leftBarButtonItem =
+            UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(goBack))
+        
         vcCheck = self.storyboard?.instantiateViewController(withIdentifier: "WordCheck") as? WordCheckVC
+        vcCheck?.navigationItem.leftBarButtonItem =
+            UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(goBack))
         
         self.activityIndicator.isHidden = true
         btnList.isEnabled = false

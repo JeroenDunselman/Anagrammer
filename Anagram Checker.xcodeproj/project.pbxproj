@@ -103,12 +103,10 @@
 		A94BBCB31FC86844001398F4 /* Anagram Checker */ = {
 			isa = PBXGroup;
 			children = (
-				A94BBCB41FC86844001398F4 /* AppDelegate.swift */,
-				A94BBCB61FC86844001398F4 /* ViewController.swift */,
-				A94BBCB81FC86844001398F4 /* Main.storyboard */,
 				A94BBCE21FC86EF8001398F4 /* Anagrams.swift */,
-				A9EAB5461FC9715C00EBEFAA /* HistoryVC.swift */,
-				A9EAB5441FC8AA6800EBEFAA /* WordCheckVC.swift */,
+				A97642F121D8FB0200456922 /* ViewControllers */,
+				A94BBCB41FC86844001398F4 /* AppDelegate.swift */,
+				A94BBCB81FC86844001398F4 /* Main.storyboard */,
 				A94BBCBB1FC86844001398F4 /* Assets.xcassets */,
 				A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */,
 				A94BBCC01FC86844001398F4 /* Info.plist */,
@@ -132,6 +130,16 @@
 				A94BBCD61FC86845001398F4 /* Info.plist */,
 			);
 			path = "Anagram CheckerUITests";
+			sourceTree = "<group>";
+		};
+		A97642F121D8FB0200456922 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A94BBCB61FC86844001398F4 /* ViewController.swift */,
+				A9EAB5461FC9715C00EBEFAA /* HistoryVC.swift */,
+				A9EAB5441FC8AA6800EBEFAA /* WordCheckVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
