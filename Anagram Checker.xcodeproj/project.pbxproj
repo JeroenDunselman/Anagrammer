@@ -14,6 +14,9 @@
 		A94BBCBF1FC86844001398F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */; };
 		A94BBCCA1FC86844001398F4 /* Anagram_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCC91FC86844001398F4 /* Anagram_CheckerTests.swift */; };
 		A94BBCD51FC86845001398F4 /* Anagram_CheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCD41FC86845001398F4 /* Anagram_CheckerUITests.swift */; };
+		A94BBCE31FC86EF8001398F4 /* Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94BBCE21FC86EF8001398F4 /* Anagrams.swift */; };
+		A9EAB5451FC8AA6800EBEFAA /* WordCheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAB5441FC8AA6800EBEFAA /* WordCheckVC.swift */; };
+		A9EAB5471FC9715C00EBEFAA /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAB5461FC9715C00EBEFAA /* HistoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A94BBCD01FC86845001398F4 /* Anagram CheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anagram CheckerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94BBCD41FC86845001398F4 /* Anagram_CheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagram_CheckerUITests.swift; sourceTree = "<group>"; };
 		A94BBCD61FC86845001398F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94BBCE21FC86EF8001398F4 /* Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anagrams.swift; sourceTree = "<group>"; };
+		A9EAB5441FC8AA6800EBEFAA /* WordCheckVC.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = WordCheckVC.swift; sourceTree = "<group>"; };
+		A9EAB5461FC9715C00EBEFAA /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				A94BBCB41FC86844001398F4 /* AppDelegate.swift */,
 				A94BBCB61FC86844001398F4 /* ViewController.swift */,
 				A94BBCB81FC86844001398F4 /* Main.storyboard */,
+				A94BBCE21FC86EF8001398F4 /* Anagrams.swift */,
+				A9EAB5461FC9715C00EBEFAA /* HistoryVC.swift */,
+				A9EAB5441FC8AA6800EBEFAA /* WordCheckVC.swift */,
 				A94BBCBB1FC86844001398F4 /* Assets.xcassets */,
 				A94BBCBD1FC86844001398F4 /* LaunchScreen.storyboard */,
 				A94BBCC01FC86844001398F4 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A94BBCE31FC86EF8001398F4 /* Anagrams.swift in Sources */,
+				A9EAB5471FC9715C00EBEFAA /* HistoryVC.swift in Sources */,
 				A94BBCB71FC86844001398F4 /* ViewController.swift in Sources */,
 				A94BBCB51FC86844001398F4 /* AppDelegate.swift in Sources */,
+				A9EAB5451FC8AA6800EBEFAA /* WordCheckVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VGL2XRGNT;
 				INFOPLIST_FILE = "Anagram Checker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5VGL2XRGNT;
 				INFOPLIST_FILE = "Anagram Checker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onomatopee.Anagram-Checker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
